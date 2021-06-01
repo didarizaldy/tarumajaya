@@ -111,11 +111,11 @@ include "inc/koneksi.php";
 
 											<div class="form-group">
 												<label>Nama Pengguna</label>
-												<input class="form-control" name="nama_pengadu" placeholder="Nama Pengadu" required />
+												<input class="form-control" name="nama_pengadu" required />
 											</div>
 											<div class="form-group">
 												<label>Nomor NIK</label>
-												<input class="form-control" name="nomer_nik" placeholder="Nomor NIK" required />
+												<input class="form-control" name="nomer_nik" type="tel" minlength="12" maxlength="12" required />
 											</div>
 
 											<div class="form-group">
@@ -129,22 +129,22 @@ include "inc/koneksi.php";
 
 											<div class="form-group">
 												<label>No HP</label>
-												<input class="form-control" name="no_hp" placeholder="No HP" required />
+												<input class="form-control" name="no_hp" type="tel" pattern=”^\d{4}-\d{4}-\d{4}$” minlength="10" maxlength="13" required />
 											</div>
 
 											<div class="form-group">
 												<label>Alamat</label>
-												<input class="form-control" name="alamat" placeholder="Alamat" required />
+												<input class="form-control" name="alamat" required />
 											</div>
 
 											<div class="form-group">
 												<label>Username</label>
-												<input class="form-control" name="username" placeholder="Username" required />
+												<input class="form-control" name="username" required />
 											</div>
 
 											<div class="form-group">
 												<label>Password</label>
-												<input class="form-control" name="password" placeholder="Password" required />
+												<input class="form-control" name="password" type="password" minlength="6" maxlength="12" required />
 											</div>
 
 											<div>
