@@ -115,7 +115,7 @@ include "inc/koneksi.php";
 											</div>
 											<div class="form-group">
 												<label>Nomor NIK</label>
-												<input class="form-control" name="nomer_nik" type="tel" minlength="12" maxlength="12" required />
+												<input class="form-control" name="nomer_nik" type="tel" minlength="16" maxlength="16" required />
 											</div>
 
 											<div class="form-group">
@@ -129,7 +129,7 @@ include "inc/koneksi.php";
 
 											<div class="form-group">
 												<label>No HP</label>
-												<input class="form-control" name="no_hp" type="tel" pattern=”^\d{4}-\d{4}-\d{4}$” minlength="10" maxlength="13" required />
+												<input class="form-control" name="no_hp" type="tel" minlength="10" maxlength="13" required />
 											</div>
 
 											<div class="form-group">
